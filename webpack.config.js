@@ -45,9 +45,9 @@ module.exports = {
             {
                 test: /\.html$/,
                 use: [
-                    {loader: 'html-loader'},
+                    // {loader: 'html-loader'},
                     {
-                        loader: 'miniHtml-loader',
+                        loader: 'no-html-loader',
                         options: {
                             comments: false
                         }
