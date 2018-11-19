@@ -13,6 +13,7 @@ var fadeIn = function(el){
             (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
         }
     };
+    console.log('sdsdsdsdsdsßddddddddddd')
 
     tick();
 }
